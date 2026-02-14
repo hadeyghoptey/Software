@@ -1,40 +1,111 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-</head>
-<body>
-    <h1>Your Name</h1>
-    <p>This is paragraph tag</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Portfolio</title>
 
-<h2>Your top 3 hoppy projects</h2>
-<ul>
-    <li>Sleeping</li>
-    <li>Eating</li>
-</ul>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
 
-<ol>
-    <li>Playing CS2</li>
- j   <li>Playing Valorant</li>
-</ol>
-<table border="1">
-    <tr>
-        <th>Name</th>
-        <th>Age</th>
-    </tr>
-    <tr>
-        <td>Hadey</td>
-        <td>23</td>
-    </tr>
-    <tr>
-        <td>Ghopte</td>
-        <td>24</td>
-    </tr>
-</table>
-<div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid a in quo veniam quae eligendi totam voluptas quod qui beatae voluptatibus odio, officia blanditiis labore quas. Harum placeat similique quibusdam!</p>
-</div>
-</body>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" />
+  </head>
+
+  <body>
+    <h1>My Student Portfolio</h1>
+
+    <!-- About section -->
+    <h2>About Me</h2>
+    <p>
+      Hello! My name is <b>Manash</b>. I am a <i>student</i> learning
+      <u>web development</u>.
+    </p>
+
+    <!-- Profile image -->
+    <h2>My Photo</h2>
+    <img src="school.jpg" alt="My Photo" width="250" />
+
+    <!-- Skills list -->
+    <h2>My Skills</h2>
+    <ul>
+      <li>HTML Basics</li>
+      <li>CSS Styling</li>
+      <li>Computer Hardware</li>
+    </ul>
+
+    <!-- Hobbies list -->
+    <h2>My Hobbies</h2>
+    <ol>
+      <li>Gaming</li>
+      <li>Watching Tech Videos</li>
+      <li>Learning Programming</li>
+    </ol>
+
+    <!-- Links -->
+    <h2>My Favorite Website</h2>
+    <p>
+      Visit my favorite learning site:
+      <a href="https://www.youtube.com" target="_blank">YouTube</a>
+    </p>
+
+    <!-- Table -->
+    <h2>Education Details</h2>
+    <table border="2" cellpadding="10" cellspacing="0">
+      <tr>
+        <th>Level</th>
+        <th>School</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td>SEE</td>
+        <td>ABC School</td>
+        <td>2023</td>
+      </tr>
+      <tr>
+        <td>+2</td>
+        <td>Ratna Rajya</td>
+        <td>2025</td>
+      </tr>
+    </table>
+
+    <!-- Contact form -->
+    <h2>Contact Me</h2>
+    <form action="#" method="POST">
+      <label for="name">Name</label><br />
+      <input
+        id="name"
+        type="text"
+        name="name"
+        placeholder="Enter your name"
+        required
+      />
+      <br /><br />
+
+      <label for="email">Email</label><br />
+      <input
+        id="email"
+        type="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      />
+      <br /><br />
+
+      <label for="message">Message</label><br />
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        placeholder="Write your message"
+      ></textarea>
+      <br /><br />
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <!-- Footer -->
+    <hr />
+    <p>© 2026 Student Portfolio</p>
+  </body>
 </html>

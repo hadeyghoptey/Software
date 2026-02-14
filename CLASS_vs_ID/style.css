@@ -1,0 +1,17 @@
+/* ID selector */
+#main-title {
+  color: darkblue;
+  text-align: center;
+}
+
+/* Class selector */
+.text {
+  color: green;
+  font-size: 18px;
+}
+
+/* Another ID selector */
+#special {
+  color: red;
+  font-weight: bold;
+}

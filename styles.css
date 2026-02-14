@@ -1,0 +1,85 @@
+/* Page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f5f7fa;
+}
+
+/* Headings */
+h1,
+h2 {
+  color: #333;
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 70%;
+  background-color: white;
+}
+
+/* Table caption */
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Header cells */
+th {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+}
+
+/* Data cells */
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Zebra striping */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect */
+tr:hover {
+  background-color: #e6f2ff;
+}
+
+/* Image styling */
+img {
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* Links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Form styling */
+input,
+textarea {
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
